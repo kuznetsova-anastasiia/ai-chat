@@ -1,11 +1,12 @@
 # AI Agile Chat
 
-AI Agile Chat is a conversational agent built using OpenAI's GPT-3.5 model. It allows users to have interactive conversations with an AI-powered language model. This repository provides the code and resources to set up and run the AI Chat application.
+AI Agile Chat is a conversational agent built using OpenAI's GPT-3.5 model. It allows users to have interactive conversations with an AI-powered language model. This repository provides the code and resources to set up and run the AI Chat application. Here the frontend part.
 
 ## Features
 
-- **Searching by date** Users can find doctors depending on available dates.
-- **Searching by geo** Users can find doctodepending on the chosen radius according to their current geo.
+- **Aithentication** Allows users to login by email via mgic links.
+- **Chat** Users can create, delete and exploring their chats.
+- **OpenAi** Users can chat with the OpenAI.
 
 ## Preview
 
@@ -29,24 +30,13 @@ git clone https://github.com/kuznetsova-anastasiia/ai-chat.git
 cd ai-chat
 ```
 
-3. Install the required dependencies. Make sure you have Python and pip installed. Run the following command to install the dependencies:
+3. Install the required dependencies. Run the following command to install the dependencies:
 
 ```
 npm install
 ```
-
-4. Set up OpenAI API access:
-
-   - Sign up for an account at the [OpenAI website](https://openai.com/) if you haven't already.
-   - Generate an API key from the OpenAI dashboard.
-   - Create a file named `.env` in the root directory of the project.
-   - Add the following line to the `.env` file, replacing `YOUR_API_KEY` with your actual API key:
-
-   ```
-   API_KEY=YOUR_API_KEY
-   ```
    
-5. Set up Supabase access:
+4. Set up Supabase access:
 
    - Sign up for an account at the [Supabase](https://supabase.com/) if you haven't already.
    - Create a project.
@@ -58,7 +48,7 @@ npm install
    VITE_SUPABASE_ANON_KEY=YOUR_ANON_KEY
    ```
    
-6. Set up the backend:
+5. Set up the backend:
    You can see all the instructions on the [Backend repo](https://github.com/kuznetsova-anastasiia/ai-chat-api)
    
    Add the backend url to the `.env` file:
