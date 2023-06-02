@@ -68,7 +68,7 @@ export const Chat = () => {
             backgroundColor: '#F9F9F9',
             borderTopLeftRadius: '40px',
             borderBottomLeftRadius: '40px',
-            paddingX: '32px',
+            paddingX: '16px',
             paddingBottom: '60px',
             display: 'flex',
             flexDirection: 'column',
@@ -101,6 +101,7 @@ export const Chat = () => {
         }}
       >
         <MessageList messages={messages} />
+
         <div ref={messagesEndRef} />
       </Box>
 

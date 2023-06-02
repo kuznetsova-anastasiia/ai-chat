@@ -30,8 +30,8 @@ export const Home = () => {
           return {
             padding: theme.spacing(1),
             [theme.breakpoints.down('md')]: {
-              alignSelf: 'flex-start',
-              marginTop: '15px'
+              position: 'absolute',
+              top: 0
             },
             [theme.breakpoints.up('md')]: {
               display: 'none'
@@ -55,6 +55,7 @@ export const Home = () => {
           sx={{
             backgroundColor: '#D8E1ED',
             height: '100%',
+            width: '90%',
             paddingY: '20px',
             paddingX: '10px',
             borderTopRightRadius: '20px',
@@ -73,7 +74,8 @@ export const Home = () => {
               display: 'none'
             },
             [theme.breakpoints.up('md')]: {
-              height: '100%'
+              height: '100%',
+              width: '300px'
             }
         }}}
       >

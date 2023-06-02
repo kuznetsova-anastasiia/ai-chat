@@ -15,8 +15,8 @@ export const Message: FC<MessageProps> = ({ text, role }) => {
           padding: theme.spacing(1),
           [theme.breakpoints.down('md')]: {
             position: 'relative',
-            width: '60%',
-            borderRadius: '40px',
+            width: '80%',
+            borderRadius: '30px',
             paddingX: '24px',
             paddingY: '5px',
             backgroundColor: role === 'user' ? '#FEE2C5' : '#C4DDFF',
